@@ -1,0 +1,3 @@
+post-build=samsung/cm_s2ve/s2ve:4.4.4/KTU84Q/9572943fef:userdebug/test-keys
+post-timestamp=1407146649
+pre-device=s2ve

@@ -1,0 +1,122 @@
+# begin build properties
+ro.build.id=KTU84Q
+ro.build.display.id=cm_s2ve-userdebug 4.4.4 KTU84Q 9572943fef test-keys
+ro.build.version.incremental=4.8.15
+ro.build.version.sdk=19
+ro.build.version.codename=REL
+ro.build.version.release=4.4.4
+ro.build.date=Δευ 04 Αύγ 2014 01:04:09 μμ EEST
+ro.build.date.utc=1407146649
+ro.build.type=userdebug
+ro.build.user=ghsr
+ro.build.host=ghsr
+ro.build.tags=test-keys
+ro.product.brand=samsung
+ro.product.name=cm_s2ve
+ro.product.board=capri
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=Samsung
+ro.product.locale.language=hdpi
+ro.wifi.channels=
+ro.board.platform=capri
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=s2ve
+ro.product.model=GT-I9105
+ro.product.device=s2ve
+# Do not try to parse ro.build.description or .fingerprint
+ro.build.description=cm_s2ve-userdebug 4.4.4 KTU84Q 9572943fef test-keys
+ro.build.fingerprint=samsung/cm_s2ve/s2ve:4.4.4/KTU84Q/9572943fef:userdebug/test-keys
+ro.build.characteristics=default
+ro.cm.device=s2ve
+# end build properties
+#
+# from device/samsung/s2ve/system.prop
+#
+#
+# system.prop for s2vep
+#
+persist.brcm.log=none
+persist.brcm.cp_crash=none
+persist.brcm.ap_crash=none
+
+rild.libpath=/system/lib/libbrcm_ril.so
+#rild.libargs=-d /dev/ttyS0
+ro.sf.lcd_density=240
+ro.lcd_brightness=123
+ro.lcd_min_brightness=20
+
+# MultiTouch support
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=2
+
+# system prop for FM Radio SNR
+#
+service.brcm.fm.start_snr=41
+service.brcm.fm.stop_snr=20
+
+ro.tvout.enable=true
+
+net.streaming.rtsp.uaprof=http://wap.samsungmobile.com/uaprof/
+
+# Multimedia property for Smart View
+media.enable-commonsource=true
+
+ro.opengles.version=131072
+debug.hwui.render_dirty_regions=false
+brcm.graphics.async_errors=true
+brcm.hwc.no-hdmi-trans=1
+
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.com.google.gmsversion=4.1_r4
+
+# TODO - and no default APN?
+persist.sys.dataprefer.simid=0
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+ro.rommanager.developerid=cyanogenmod
+ro.com.google.clientidbase=android-google
+keyguard.no_require_sim=true
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.setupwizard.enterprise_mode=1
+ro.com.android.dateformat=MM-dd-yyyy
+ro.com.android.dataroaming=false
+ro.build.selinux=1
+persist.sys.dun.override=0
+persist.sys.root_access=0
+ro.cm.version=11-20140804-UNOFFICIAL-s2ve
+ro.modversion=4.8.15
+ro.cmlegal.url=http://www.cyanogenmod.org/docs/privacy
+persist.sys.recovery_update=false
+ro.cm.display.version=11-20140804-UNOFFICIAL-s2ve
+wifi.interface=wlan0
+mobiledata.interfaces=rmnet0
+ro.telephony.ril_class=SamsungBCMRIL
+ro.zygote.disable_gl_preload=true
+ro.com.google.locationfeatures=1
+ro.com.google.networklocation=1
+ro.kernel.android.checkjni=0
+dalvik.vm.checkjni=false
+dalvik.vm.heapstartsize=5m
+dalvik.vm.heapgrowthlimit=48m
+dalvik.vm.heapsize=128m
+dalvik.vm.heaptargetutilization=0.25
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=2m
+ro.carrier=unknown
+persist.sys.dalvik.vm.lib=libdvm.so
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+ro.config.ringtone=MI.ogg
+ro.config.notification_sound=FadeIn.ogg
+ro.config.alarm_alert=GoodMorning.ogg
+ro.config.sms_received_sound=FadeIn.ogg
+ro.config.sms_delivered_sound=MessageComplete.ogg
+ro.com.android.mobiledata=false
